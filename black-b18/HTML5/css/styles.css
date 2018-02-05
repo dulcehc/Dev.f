@@ -1,0 +1,39 @@
+/* '*' selector universal*/
+/*
+*{
+	background: red;
+}
+*/
+
+/*normalize para que en todos los navegadores empiecen con los mismos estilos*/
+
+/* margin-exterior padding-interior*/
+header {
+	background-color: #64FFDA;
+	padding: 0px 50px;   /*superior-inferior, izq-der*/
+}
+
+ul{
+	/*border: 1px solid white;*/
+	width: 50%;
+	text-align: center;  /*al elemento contenedor*/
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+li{
+	display: inline-block;
+	margin: 0 7%;
+	font-family: helvetica;
+	font-size: 18px;
+	/*border: 1px solid red;*/
+}
+
+nav {
+	height: 100px;
+	padding-top: 30px;
+	/*border: 1px solid red;*/
+}
