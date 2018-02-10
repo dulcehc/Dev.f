@@ -5,7 +5,8 @@ de la multiplicación entre números adyacentes
 */
 'use strict'
 //var elementos = [9,2,4,6,1,9];
-var elementos = [1];
+//var elementos = [-1, 2, 8, -3];
+var elementos = [-23, 4, -3, 8, -12, 1]
 
 function multiplicacion(arreglo_par){
     var i = 0;
@@ -14,8 +15,11 @@ function multiplicacion(arreglo_par){
     var aux = 0;
 
     if (size % 2 == 0){ //tamaño par
-        for (i = 0; i < size; i+=2){
+        for (i = 0; i < size-1; i++){
             aux = arreglo_par[i] * arreglo_par[i+1];
+            if (i == 0){
+                mayor = aux;  // inicializar "mayor" con el primer elemento
+            }
             if (aux > mayor){
                 mayor = aux;
             }
