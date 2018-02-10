@@ -29,10 +29,6 @@ function numeros(array){
             mayor = array[i];
         }
     }
-    /*console.log('número mayor: ' + mayor);
-    console.log('pares: ' + pares);
-    console.log('nones: ' + nones);
-    console.log('sumatoria: ' + sumatoria);*/
     resultado.push(mayor);
     resultado.push(pares);
     resultado.push(nones);
