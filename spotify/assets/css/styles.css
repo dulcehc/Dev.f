@@ -5,7 +5,7 @@
 }
 
 .navbar {
-  background-color: rgba(34, 35, 38, .5);
+  background-color: rgba(34, 35, 38, .6);
 }
 
 .nav-link {
@@ -22,8 +22,6 @@
 }
 
 .divider{
-	/*margin-top: 32px;
-  margin-bottom: 32px;*/
   height: 16px;
   width: 1px;
   margin-left: 17px;
@@ -32,8 +30,19 @@
 
 .section-slide{
   margin: 60px 60px;
-  border: solid red;
+  border: solid blue;
   position: absolute;
+}
+.carousel-inner{
+  border: solid red;
+  height: 660px;
+  background-image: url("../img/fondospotify.jpg");
+}
+
+.carousel-item h1{
+  color: #FFFFFF;
+  font-size: 80px;
+  font-weight: 500;
 }
 .btn-free {
   color: #FFFFFF;
@@ -71,24 +80,69 @@
   text-decoration: none;
   background-color: #FFFFFF;
 }
+
+.title-section {
+  font-family: inherit;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 30px 15px;
+}
+.subtitle {
+  font-weight: bold;
+}
 .album img{
   width: 277px;
   height: 277px;
 }
+.album img:hover {
+  filter:brightness(0.4);
+}
+.music-albums {
+  padding-top: 30px;
+}
 .bg-color {
-  border: solid red;
-  background-image: url("fondospotify.jpg");
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: bottom right, left, right;
-  display: block;
+  background-image: url("../img/fondospotify.jpg");
+  color: white;
 }
 
 .phone {
-  border: solid red;
+  border: solid white;
+  width: 330px;
+  heigth: 670px;
+  background: none;
+  margin: 20px;
+  border-radius: 20px;
 }
 
+.albums-section img {
+  width: 110px;
+  height: 110px;
+  margin-right: 20px;
+}
+figcaption{
+  font-size: 12px;
+}
 .footer-style {
   background-color: #000000;
+}
+
+.lista-disp {
+  list-style-type: none;
+  display: inline-block;
+}
+.lista-disp li {
+  float: left;
+  margin: 0 10px;
+}
+.lista-disp li > a{
+  color: #1ed760;
+  font-weight: bold;
+}
+.card {
+  color: black;
+}
+.card-body li {
+  list-style-type: none;
 }
 /*@media screen and (max-width: 600px) {
   * {
